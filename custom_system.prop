@@ -1,0 +1,8 @@
+ro.mist.display=1080 x 2340, 60 Hz, HDR10
+ro.mist.battery=3700 mAh
+ro.mist.soc=Qualcomm Snapdragon 855
+ro.mist.camera=48MP
+ro.mist.front=16MP
+ro.mist.platform=sm8150
+ro.mist.screen=6.41" Optic AMOLED
+ro.mist.device.name=OnePlus 7
