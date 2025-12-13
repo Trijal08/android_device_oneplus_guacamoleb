@@ -36,6 +36,52 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# UDFPS support
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Lawnchair (Pixel Launcher by default)
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# Exclude Aperture camera app
+PRODUCT_NO_CAMERA := true
+
+# Custom package installer
+TARGET_USE_CUSTOM_PACKAGE_INSTALLER := true
+
+# Live wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP  := true
+
+# Now Playing
+TARGET_SUPPORTS_NOW_PLAYING := true
+
+# Clear Calling
+TARGET_SUPPORTS_CLEAR_CALLING := true
+
+# Call Recording Support
+TARGET_SUPPORTS_CALL_RECORDING := true
+
+# Bypass charging
+BYPASS_CHARGE_SUPPORTED := true
+
+# GMS
+WITH_GMS := true
+
+## Project Matrixx Flags
+# To include QuickSwitch
+WITH_QS := true
+
+# To Build BCR
+TARGET_SUPPORTS_GSUITE := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
